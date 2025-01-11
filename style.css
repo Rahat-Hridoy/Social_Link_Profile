@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: #141414;
+}
+.card_container {
+  margin: 100px auto;
+  background-color: #1f1f1f;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.profile_img img {
+  border-radius: 50%;
+  width: 70px;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  padding: 10px 0;
+  font-size: 24px;
+}
+.address {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+.quotation {
+  color: hsl(0, 2%, 77%);
+  font-size: 14px;
+  padding: 30px 0 20px 0;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  margin: 6px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+}
+a:last-child {
+  margin-bottom: 50px;
+}
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  transition: 400ms;
+  color: black;
+  font-weight: 500;
+}
+
+@media (max-width: 375px) {
+  .profile_img img {
+    width: 85px;
+  }
+}
